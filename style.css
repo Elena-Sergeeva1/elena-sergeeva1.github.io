@@ -1,0 +1,133 @@
+body {
+	background-color: #f7efef;
+	font-family: Raleway, sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	color: #0f2148;
+	font-size: 38px;
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+}
+
+h2 {
+	color: #9cd1c3;
+	font-size: 30px;
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+}
+
+p {
+	color: #0f2148;
+	font-size: 20px;
+	line-height: 170%;
+}
+
+a {
+	color: rgb(257, 249, 249);
+	font-family: Raleway, sans-serif;
+	background-color: rgb(101, 164, 175);
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 170%;
+	border-color: rgb(101, 164, 175);
+	border-width: 3px;
+	border-style: solid;
+	font-size: 21px;
+	padding: 10px 15px; 
+	border-radius: 4px; 
+}
+
+a:hover {
+	transition: 0.3 ease;
+	background-color:#f7efef;
+	color: rgb(101, 164, 175); 
+	border-color: rgb(101, 164, 175);
+	border-width: 3px;
+	border-style: solid;
+	padding: 10px 15px; 
+	border-radius: 4px; 	
+}
+
+
+.img-circle {
+
+	border-radius: 50%;
+}
+
+.icon-blue {
+	font-size: 34px;
+	color: rgb(101, 164, 175)
+	background-color: rgb(101, 164, 175);
+	border-radius: 4%;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background: rgb(257, 249, 249);
+	padding: 40px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgb(234, 220, 221);
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px; 
+}
+
+#introduction  p {
+	margin-bottom: 40px;
+
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px; 
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px; 
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
